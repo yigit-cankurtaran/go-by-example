@@ -4,8 +4,8 @@ import "fmt"
 
 func main()  {
   for i := 1; i < 100; i++{
-    var a bool = i % 3 == 0
-    var b bool = i % 5 == 0
+    a := i % 3 == 0
+    b := i % 5 == 0
 
     if a && b {
       fmt.Println("Fizzbuzz")
